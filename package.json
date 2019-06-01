@@ -1,16 +1,15 @@
 {
-  "name": "canva_test",
+  "name": "eslint_boilerplate",
   "engines": {
     "node": ">=10.15.3"
   },
-  "description": "For Development of Challenge Code",
+  "description": "For Development of Standard NodeJS App",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./",
     "run": "node index.js",
-    "runLwatch": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run:watch": "nodemon index.js"
   },
   "author": "Adeel Asif",
   "license": "ISC",
